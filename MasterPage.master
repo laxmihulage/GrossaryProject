@@ -1,0 +1,116 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<title>Untitled Page</title>
+<asp:ContentPlaceHolder id="head" runat="server">
+</asp:ContentPlaceHolder>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">      
+<link href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
+
+<link href="themes/css/bootstrappage.css" rel="stylesheet"/>
+
+
+<link href="themes/css/flexslider.css" rel="stylesheet"/>
+<link href="themes/css/main.css" rel="stylesheet"/>
+
+
+<script src="themes/js/jquery-1.7.2.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="themes/js/superfish.js"></script>
+<script src="themes/js/jquery.scrolltotop.js"></script>
+
+
+
+<style type="text/css">
+.style1
+{
+font-size: large;
+}
+.style2
+{
+font-size: large;
+font-weight: bold;
+font-style: italic;
+}
+</style>
+
+<link href="themes/css/StyleSheet.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+<form id="form1" runat="server">
+<div>
+<div class="flexslider">
+
+
+<table style="height:500px; width:100%; border:2px"> 
+<tr style="height:30px"> 
+<td style="text-align:center; font-family:simsun; font-size:10px; 
+background-color:Maroon; height:20px">
+
+
+<marquee>
+<h1 style="text-align:center; font-family:Monotype Corsiva; font-size:30px;
+color:White">Online Grocery SHOP</h1>
+
+</marquee>
+
+</td>
+</tr>
+<div class="flexslider">
+
+
+
+
+</div>
+<tr style="height:30px; width:100%; font-family:Arial Baltic; font-size:larger">
+<td>
+<a href="Home.aspx">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="About.aspx">About</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="Contact.aspx">Contact</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<a href="Login.aspx"> Login</a>&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+
+<a href="Fruits1.aspx" style="font-size:20px" >Fruits</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+  <a href="vegetable1.aspx" style="font-size:20px">vegetable</a>
+  
+  
+  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="Shop.aspx"> Shop</a>
+               
+
+
+
+</td>
+
+</tr>
+<tr>
+<td style="vertical-align:top">
+<asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+
+</asp:ContentPlaceHolder>
+</td>
+</tr>
+</table>
+
+</div>
+</form>
+</body>
+</html>
